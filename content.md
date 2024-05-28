@@ -21,7 +21,7 @@ Aqui, usamos __iter()__ para criar um iterador e __next()__ para obter os itens 
 
 ## Quais seus pontos mais fortes vs mais fracos
 
-Os iteradores são ótimos porque economizam memória e tornam seu código mais limpo e legível. Você pode processar grandes quantidades de dados sem carregá-los todos na memória de uma vez. No entanto, eles têm suas desvantagens, como não permitir voltar ao início da sequência sem reiniciar o iterador.
+Os iteradores são ótimos porque economizam memória e tornam seu código mais limpo e legível. Você pode processar grandes quantidades de dados sem os carregar todos na memória de uma vez. No entanto, eles têm suas desvantagens, como não permitir voltar ao início da sequência sem reiniciar o iterador
 
 ### Vantagens
 
@@ -54,11 +54,11 @@ print(next(iterador))  # Saída: banana
 iterador = iter(frutas)
 print(next(iterador))  # Saída: maçã
 
-Depois de avançar no iterador, para voltar ao início, você precisa criar um novo iterador. No exemplo acima, após avançar para 'maçã' e 'banana', recriamos o iterador para voltar ao início e imprimir 'maçã' novamente. Isso pode ser inconveniente em certas situações onde a capacidade de voltar é necessária.
+Após avançar no iterador, para voltar ao início, você precisa criar um novo iterador. No exemplo acima, após avançar para 'maçã' e 'banana', recriamos o iterador para voltar ao início e imprimir 'maçã' novamente. Isso pode ser inconveniente em certas situações onde a capacidade de voltar é necessária.
 
 ## Conclusão
 
-Curtiu aprender sobre iteradores em Python? Ele foi gerado por inteligência artifical, porém revisado por alguém 100% Humano! Me acompanhe nas redes sociais para não perder nenhuma novidade e se aprofundar ainda mais no mundo Tech.
+Curtiu aprender sobre iteradores em Python? Ele foi gerado por inteligência artificial, porém revisado por alguém __100%__ Humano! Me acompanhe nas redes sociais para não perder nenhuma novidade e se aprofundar ainda mais no mundo Tech.
 
 - [LinkedIn](https://www.linkedin.com/in/matheussantossi/)
 - [GitHub](https://github.com/MatheusDSantossi)
@@ -66,5 +66,7 @@ Curtiu aprender sobre iteradores em Python? Ele foi gerado por inteligência art
 Fontes de produção
 Ilustrações de capa: gerada pela [lexica.art](https://lexica.art)
 Conteúdo gerado por: [ChatGPT](https://chatgpt.com) e revisões humanas.
+
+Link para o artigo na [DIO](https://web.dio.me/articles/artigo-desvendando-os-iteradores-em-python-uma-introducao-completa?back=%2Farticles&open-modal=true&page=1&order=oldest)
 
 > #Python #Iterators #DataScience
